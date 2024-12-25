@@ -4,3 +4,5 @@ end
 
 # Nouns - classes
 # Verbs - methods
+
+# messages - methods
