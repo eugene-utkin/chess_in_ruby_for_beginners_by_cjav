@@ -3,6 +3,9 @@ class Board
   #   [piece, nil],
   #   []
   # ]
+  def initialize
+
+  end
 end
 
 # Nouns - classes
