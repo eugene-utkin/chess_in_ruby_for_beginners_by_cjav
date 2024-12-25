@@ -15,6 +15,7 @@ end
 
 # place pieces
 # out of bounds
+# get a piece
 
 # Nouns - classes
 # Verbs - methods
