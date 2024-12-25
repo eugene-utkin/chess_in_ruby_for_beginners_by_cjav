@@ -6,6 +6,7 @@ class Board
   def initialize
     @grid = [
       ["X", "X", nil, "X"],
+      ["X", "X", nil, "X"],
       ["X", "X", nil, "X"]
     ]
   end
