@@ -1,5 +1,8 @@
 class Board
-
+  # [
+  #   [piece, nil],
+  #   []
+  # ]
 end
 
 # Nouns - classes
