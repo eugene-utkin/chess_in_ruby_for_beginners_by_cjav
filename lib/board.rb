@@ -13,6 +13,8 @@ class Board
   end
 end
 
+# place pieces
+
 # Nouns - classes
 # Verbs - methods
 
