@@ -7,6 +7,7 @@ class Board
     @grid = [
       ["X", "X", nil, "X"],
       ["X", "X", nil, "X"],
+      ["X", "X", nil, "X"],
       ["X", "X", nil, "X"]
     ]
   end
