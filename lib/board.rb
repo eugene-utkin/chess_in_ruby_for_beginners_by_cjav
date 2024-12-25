@@ -14,6 +14,7 @@ class Board
 end
 
 # place pieces
+# out of bounds
 
 # Nouns - classes
 # Verbs - methods
