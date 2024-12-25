@@ -6,3 +6,4 @@ end
 # Verbs - methods
 
 # messages - methods
+# actors - classes
