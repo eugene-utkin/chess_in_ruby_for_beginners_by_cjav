@@ -1,4 +1,5 @@
 class Board
+  attr_reader :grid
   # [
   #   [piece, nil],
   #   []
