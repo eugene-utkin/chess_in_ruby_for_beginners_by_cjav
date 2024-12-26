@@ -12,7 +12,7 @@ class Board
     ]
   end
 
-  def place(piece, row)
+  def place(piece, row, column)
 
   end
 end
