@@ -14,7 +14,7 @@ class Board
   end
 
   def place(piece, row, column)
-    @grid[row][column] = piece
+    grid[row][column] = piece
   end
 end
 
