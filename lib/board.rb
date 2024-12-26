@@ -13,7 +13,7 @@ class Board
     ]
   end
 
-  def place(piece, row, column)
+  def place(piece, location)
     grid[row][column] = piece
   end
 end
