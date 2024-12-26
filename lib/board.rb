@@ -11,6 +11,10 @@ class Board
       ["X", "X", nil, "X"]
     ]
   end
+
+  def place
+
+  end
 end
 
 # place pieces
