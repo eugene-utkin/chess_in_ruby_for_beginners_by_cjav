@@ -12,7 +12,7 @@ class Board
     ]
   end
 
-  def place
+  def place(piece)
 
   end
 end
