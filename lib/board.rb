@@ -17,6 +17,10 @@ class Board
     row, column = location
     grid[row][column] = piece
   end
+
+  def [](location)
+
+  end
 end
 
 # place pieces
