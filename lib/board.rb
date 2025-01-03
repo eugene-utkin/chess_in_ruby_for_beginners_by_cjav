@@ -19,7 +19,7 @@ class Board
   end
 
   def [](location)
-
+    row, column = location
   end
 end
 
