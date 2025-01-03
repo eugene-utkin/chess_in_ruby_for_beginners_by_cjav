@@ -20,6 +20,7 @@ class Board
 
   def [](location)
     row, column = location
+    grid[row][column]
   end
 end
 
