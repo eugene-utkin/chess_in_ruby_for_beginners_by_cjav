@@ -4,4 +4,4 @@ b = Board.new
 
 loc = [0, 0]
 b[loc] = "Y"
-p b.grid
+puts b[loc]
