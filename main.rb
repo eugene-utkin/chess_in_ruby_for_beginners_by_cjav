@@ -5,3 +5,5 @@ b = Board.new
 loc = [0, 0]
 b[loc] = "Y"
 puts b[loc]
+
+puts b[[1, 1]]
