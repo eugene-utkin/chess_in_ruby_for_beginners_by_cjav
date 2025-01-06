@@ -7,3 +7,4 @@ b[loc] = "Y"
 puts b[loc]
 
 puts b[[1, 1]]
+p b.grid
