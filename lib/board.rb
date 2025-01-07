@@ -23,7 +23,7 @@ class Board
     grid[row][column]
   end
 
-  def out_of_bounds?
+  def out_of_bounds?(location)
 
   end
 end
