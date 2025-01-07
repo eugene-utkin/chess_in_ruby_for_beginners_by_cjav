@@ -22,6 +22,10 @@ class Board
     row, column = location
     grid[row][column]
   end
+
+  def out_of_bounds?
+
+  end
 end
 
 # place pieces
