@@ -24,7 +24,7 @@ class Board
   end
 
   def out_of_bounds?(location)
-
+    row, column = location
   end
 end
 
