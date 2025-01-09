@@ -25,7 +25,9 @@ class Board
 
   def out_of_bounds?(location)
     row, column = location
-    row < grid.length && column < grid.first.length
+    row < grid.length &&
+      column < grid.first.length &&
+      row >= 0
   end
 end
 
