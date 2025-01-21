@@ -1,6 +1,6 @@
 class Pawn
   def initialize(location)
-
+    @location = location
   end
 
   def move_dirs
