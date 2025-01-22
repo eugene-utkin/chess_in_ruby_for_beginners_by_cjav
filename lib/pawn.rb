@@ -10,7 +10,7 @@ class Pawn
   end
 
   def row
-
+    @location.first
   end
 end
 
