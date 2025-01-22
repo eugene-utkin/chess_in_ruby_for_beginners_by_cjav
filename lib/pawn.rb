@@ -8,6 +8,10 @@ class Pawn
       [0, 1]
     ]
   end
+
+  def row
+
+  end
 end
 
 # move_dirs
