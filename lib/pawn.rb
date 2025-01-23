@@ -14,7 +14,7 @@ class Pawn
   end
 
   def column
-
+    @location.last
   end
 end
 
