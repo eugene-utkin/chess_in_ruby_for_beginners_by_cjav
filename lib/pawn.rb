@@ -12,6 +12,10 @@ class Pawn
   def row
     @location.first
   end
+
+  def column
+
+  end
 end
 
 # move_dirs
