@@ -10,7 +10,7 @@ class Pawn
   end
 
   def starting_pos?
-
+    row == 1 || row == 6
   end
 
   def row
