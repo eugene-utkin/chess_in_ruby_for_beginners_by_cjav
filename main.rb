@@ -5,3 +5,4 @@ require_relative './lib/rook.rb'
 # b = Board.new
 
 p = Pawn.new
+puts p
