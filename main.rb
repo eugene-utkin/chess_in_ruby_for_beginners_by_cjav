@@ -4,5 +4,5 @@ require_relative './lib/rook.rb'
 
 # b = Board.new
 
-p = Pawn.new
+p = Pawn.new([0, 0])
 puts p
