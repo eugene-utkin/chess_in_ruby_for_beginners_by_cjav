@@ -4,7 +4,7 @@ class Pawn
   end
 
   def to_s
-
+    "♟️" "♙"
   end
 
   def move_dirs
