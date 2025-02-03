@@ -3,6 +3,10 @@ class Pawn
     @location = location
   end
 
+  def to_s
+
+  end
+
   def move_dirs
     [
       [0, 1]
