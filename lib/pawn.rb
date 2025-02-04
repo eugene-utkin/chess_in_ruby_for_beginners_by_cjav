@@ -1,6 +1,7 @@
 class Pawn
   def initialize(location, color)
     @location = location
+    @color = color
   end
 
   def to_s
