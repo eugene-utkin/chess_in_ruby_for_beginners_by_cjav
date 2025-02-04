@@ -1,5 +1,5 @@
 class Pawn
-  def initialize(location)
+  def initialize(location, color)
     @location = location
   end
 
