@@ -1,11 +1,13 @@
 class Pawn
+  attr_reader :color
+
   def initialize(location, color)
     @location = location
     @color = color
   end
 
   def to_s
-    @color == :black ? "♟️" : "♙"
+    color == :black ? "♟️" : "♙"
   end
 
   def move_dirs
