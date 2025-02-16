@@ -6,7 +6,7 @@ b = Board.new
 b[[1, 0]] = Pawn.new([0, 0], :black)
 b[[1, 1]] = Pawn.new([0, 0], :black)
 b[[1, 2]] = Pawn.new([0, 0], :black)
-b[[1, 3]] = Pawn.new([0, 0], :black)
+b[[1, 3]] = Pawn.new([0, 0], :white)
 
 p b.grid
 
