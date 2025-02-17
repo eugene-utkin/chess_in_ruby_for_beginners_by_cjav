@@ -7,7 +7,7 @@ class Pawn
   end
 
   def to_s
-    color == :black ? "♟️" : "♙"
+    color == :black ? "♟" : "♙"
   end
 
   def move_dirs
