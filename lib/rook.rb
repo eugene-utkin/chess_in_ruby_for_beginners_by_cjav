@@ -1,4 +1,8 @@
 class Rook
+  def initialize(color)
+
+  end
+
   def move_dirs
     [
       [0, 1],
