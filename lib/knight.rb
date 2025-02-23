@@ -6,7 +6,7 @@ class Knight
   end
 
   def to_s
-    color == :black ? "♟" : "♙"
+    color == :black ? "♞" : "♘"
   end
 
   def move_dirs
