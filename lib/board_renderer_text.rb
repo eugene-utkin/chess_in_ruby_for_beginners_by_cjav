@@ -1,5 +1,5 @@
 class BoardRendererText
-  def initialize
+  def initialize(board)
 
   end
 end
