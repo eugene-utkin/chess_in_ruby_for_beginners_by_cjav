@@ -6,6 +6,8 @@ class BoardRendererText
   end
 
   def render
+    8.times do |r|
 
+    end
   end
 end
