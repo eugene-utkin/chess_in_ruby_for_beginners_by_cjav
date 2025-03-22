@@ -7,6 +7,7 @@ class BoardRendererText
 
   def render
     8.times do |r|
+      puts "-----------------"
       8.times do |c|
 
       end
