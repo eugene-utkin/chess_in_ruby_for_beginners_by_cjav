@@ -11,6 +11,7 @@ class BoardRendererText
       8.times do |c|
         print board([r, c])
       end
+      puts ""
     end
   end
 end
