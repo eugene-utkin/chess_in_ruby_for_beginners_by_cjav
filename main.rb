@@ -3,6 +3,7 @@ require_relative './lib/board_renderer_text.rb'
 require_relative './lib/pawn.rb'
 require_relative './lib/rook.rb'
 require_relative './lib/knight.rb'
+require_relative './lib/king.rb'
 
 b = Board.new
 b[[1, 0]] = Pawn.new(:black)
