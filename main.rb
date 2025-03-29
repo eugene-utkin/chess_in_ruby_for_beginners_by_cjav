@@ -5,6 +5,7 @@ require_relative './lib/rook.rb'
 require_relative './lib/knight.rb'
 require_relative './lib/king.rb'
 require_relative './lib/queen.rb'
+require_relative './lib/bishop.rb'
 
 b = Board.new
 b[[1, 0]] = Pawn.new(:black)
