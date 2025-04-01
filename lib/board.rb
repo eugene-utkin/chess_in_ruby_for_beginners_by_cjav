@@ -5,12 +5,7 @@ class Board
   #   []
   # ]
   def initialize
-    @grid = [
-      ["X", "X", nil, "X"],
-      ["X", "X", nil, "X"],
-      ["X", "X", nil, "X"],
-      ["X", "X", nil, "X"]
-    ]
+    @grid = Array.new(8) { Array.new }
   end
 
   def []=(location, piece)
