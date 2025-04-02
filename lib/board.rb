@@ -1,9 +1,6 @@
 class Board
   attr_reader :grid
-  # [
-  #   [piece, nil],
-  #   []
-  # ]
+
   def initialize
     @grid = Array.new(8) { Array.new }
   end
