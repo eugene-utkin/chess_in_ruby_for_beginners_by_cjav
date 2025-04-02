@@ -1,6 +1,10 @@
 class Board
   attr_reader :grid
 
+  def self.start_chess
+
+  end
+
   def initialize
     @grid = Array.new(8) { Array.new }
   end
