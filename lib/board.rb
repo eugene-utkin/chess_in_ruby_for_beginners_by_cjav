@@ -2,7 +2,7 @@ class Board
   attr_reader :grid
 
   def self.start_chess
-
+    board = self.new
   end
 
   def initialize
