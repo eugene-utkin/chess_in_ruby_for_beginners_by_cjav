@@ -11,7 +11,7 @@ class Board
   def self.start_chess
     board = self.new
     8.times do |c|
-
+      board[[1, c]] = Pawn.new(:black)
     end
   end
 
