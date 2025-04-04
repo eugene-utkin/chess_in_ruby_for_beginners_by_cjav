@@ -10,6 +10,9 @@ class Board
 
   def self.start_chess
     board = self.new
+    8.times do |c|
+
+    end
   end
 
   def initialize
