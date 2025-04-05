@@ -13,6 +13,7 @@ class Board
     8.times do |c|
       board[[1, c]] = Pawn.new(:black)
     end
+    board
   end
 
   def initialize
