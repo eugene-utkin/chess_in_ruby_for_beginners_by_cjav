@@ -15,6 +15,7 @@ class Board
       board[[6, c]] = Pawn.new(:white)
     end
     board[[0, 0]] = Rook.new(:black)
+    board[[0, 7]] = Rook.new(:black)
     board
   end
 
