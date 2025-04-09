@@ -16,6 +16,7 @@ class Board
     end
     board[[0, 0]] = Rook.new(:black)
     board[[0, 7]] = Rook.new(:black)
+    board[[7, 0]] = Rook.new(:white)
     board
   end
 
