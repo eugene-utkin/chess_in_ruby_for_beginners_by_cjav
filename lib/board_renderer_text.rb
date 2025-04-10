@@ -10,6 +10,9 @@ class BoardRendererText
       puts "-----------------"
       8.times do |c|
         piece = board[[r, c]]
+        if piece.nil?
+        
+        end
         print "#{board[[r, c]]} "
       end
       puts ""
