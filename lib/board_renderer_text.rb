@@ -11,7 +11,7 @@ class BoardRendererText
       8.times do |c|
         piece = board[[r, c]]
         if piece.nil?
-        
+          print "  "
         end
         print "#{board[[r, c]]} "
       end
