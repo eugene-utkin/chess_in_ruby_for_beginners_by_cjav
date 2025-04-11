@@ -12,8 +12,9 @@ class BoardRendererText
         piece = board[[r, c]]
         if piece.nil?
           print "  "
+        else
+          print "#{board[[r, c]]} "
         end
-        print "#{board[[r, c]]} "
       end
       puts ""
     end
