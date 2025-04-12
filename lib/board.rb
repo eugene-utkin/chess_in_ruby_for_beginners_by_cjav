@@ -14,6 +14,10 @@ class Board
       board[[1, c]] = Pawn.new(:black)
       board[[6, c]] = Pawn.new(:white)
     end
+
+    [[0, :black], [7, :white]].each do |(r, color)|
+
+    end
     board[[0, 0]] = Rook.new(:black)
     board[[0, 7]] = Rook.new(:black)
     board[[7, 0]] = Rook.new(:white)
