@@ -18,5 +18,6 @@ class BoardRendererText
       end
       puts ""
     end
+    puts "-----------------"
   end
 end
