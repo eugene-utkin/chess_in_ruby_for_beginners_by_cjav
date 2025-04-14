@@ -17,7 +17,7 @@ class Board
 
     [[0, :black], [7, :white]].each do |(r, color)|
       board[[r, 0]] = Rook.new(color)
-      board[[r, 7]] = Rook.new(:black)
+      board[[r, 7]] = Rook.new(color)
     end
     board[[0, 0]] = Rook.new(:black)
     board[[0, 7]] = Rook.new(:black)
