@@ -18,6 +18,7 @@ class Board
     [[0, :black], [7, :white]].each do |(r, color)|
       board[[r, 0]] = Rook.new(color)
       board[[r, 7]] = Rook.new(color)
+      board[[r, 1]] = Knight.new(color)
     end
 
     board
