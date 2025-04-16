@@ -19,6 +19,7 @@ class Board
       board[[r, 0]] = Rook.new(color)
       board[[r, 7]] = Rook.new(color)
       board[[r, 1]] = Knight.new(color)
+      board[[r, 6]] = Knight.new(color)
     end
 
     board
