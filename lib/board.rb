@@ -21,6 +21,7 @@ class Board
       board[[r, 1]] = Knight.new(color)
       board[[r, 6]] = Knight.new(color)
       board[[r, 2]] = Bishop.new(color)
+      board[[r, 5]] = Bishop.new(color)
     end
 
     board
