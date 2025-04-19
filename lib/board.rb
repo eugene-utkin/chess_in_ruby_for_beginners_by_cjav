@@ -26,6 +26,7 @@ class Board
     board[[0, 3]] = King.new(:black)
     board[[0, 4]] = Queen.new(:black)
     board[[7, 3]] = King.new(:white)
+    board[[7, 4]] = Queen.new(:white)
 
     board
   end
