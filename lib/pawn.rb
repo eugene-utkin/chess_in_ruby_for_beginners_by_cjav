@@ -11,4 +11,3 @@ class Pawn < Piece
 end
 
 # move_dirs
-# 
