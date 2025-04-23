@@ -1,4 +1,4 @@
-class King
+class King < Piece
   attr_reader :color
 
   def initialize(color)
