@@ -5,4 +5,8 @@ class Piece
     @board = board
     @color = color
   end
+
+  def enemy?
+
+  end
 end
