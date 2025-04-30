@@ -6,7 +6,7 @@ class Piece
     @color = color
   end
 
-  def enemy?
+  def enemy?(location)
 
   end
 end
