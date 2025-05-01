@@ -7,7 +7,7 @@ require_relative './lib/pawn.rb'
 require_relative './lib/queen.rb'
 require_relative './lib/rook.rb'
 
-b = Board.start_chess
+b = Board.new
 
 text_board = BoardRendererText.new(b)
 puts text_board.render
