@@ -11,6 +11,8 @@ b = Board.new
 b[[0, 0]] = Pawn.new(b, :black)
 b[[0, 1]] = Pawn.new(b, :white)
 
+piece = b[[0, 0]]
+
 text_board = BoardRendererText.new(b)
 puts text_board.render
 
