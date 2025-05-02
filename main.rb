@@ -9,6 +9,7 @@ require_relative './lib/rook.rb'
 
 b = Board.new
 b[[0, 0]] = Pawn.new(b, :black)
+b[[0, 1]] = Pawn.new(b, :white)
 
 text_board = BoardRendererText.new(b)
 puts text_board.render
