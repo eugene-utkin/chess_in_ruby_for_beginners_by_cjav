@@ -1,3 +1,4 @@
+require_relative './piece.rb'
 require_relative './bishop.rb'
 require_relative './board.rb'
 require_relative './board_renderer_text.rb'
