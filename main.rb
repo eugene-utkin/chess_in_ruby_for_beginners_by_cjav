@@ -7,7 +7,7 @@ b[[0, 0]] = Pawn.new(b, :black)
 b[[0, 1]] = Pawn.new(b, :white)
 
 piece = b[[0, 0]]
-piece.enemy?([0, 1])
+puts piece.enemy?([0, 1])
 
 text_board = BoardRendererText.new(b)
 puts text_board.render
