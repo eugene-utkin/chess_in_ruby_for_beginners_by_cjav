@@ -8,6 +8,7 @@ b[[0, 1]] = Pawn.new(b, :white)
 
 piece = b[[0, 0]]
 puts piece.enemy?([0, 1])
+puts piece.enemy?([0, 0])
 
 text_board = BoardRendererText.new(b)
 puts text_board.render
