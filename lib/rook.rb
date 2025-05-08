@@ -4,7 +4,9 @@ class Rook < Piece
   end
 
   def available_moves
+    move_dirs.each do |(dr, dc)|
 
+    end
   end
 
   def move_dirs
