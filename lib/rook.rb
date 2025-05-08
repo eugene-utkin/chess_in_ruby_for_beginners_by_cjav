@@ -3,6 +3,10 @@ class Rook < Piece
     color == :black ? "♜" : "♖"
   end
 
+  def available_moves
+
+  end
+
   def move_dirs
     [
       [0, 1],
