@@ -8,6 +8,7 @@ class Rook < Piece
     move_dirs.each do |(dr, dc)|
 
     end
+    moves
   end
 
   def move_dirs
