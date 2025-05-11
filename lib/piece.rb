@@ -4,6 +4,7 @@ class Piece
   def initialize(board, location, color)
     @board = board
     @color = color
+    @location = location
   end
 
   def enemy?(location)
