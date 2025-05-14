@@ -5,6 +5,7 @@ class Rook < Piece
 
   def available_moves
     moves = []
+    current_r, current_c = location
     move_dirs.each do |(dr, dc)|
       # until we hit a piece
       #   add the location + dr/dc to moves
