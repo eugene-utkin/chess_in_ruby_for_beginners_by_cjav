@@ -8,6 +8,10 @@ class Rook < Piece
     
     move_dirs.each do |(dr, dc)|
       current_r, current_c = location
+
+      loop do
+
+      end
       # until we hit a piece
       #   add the location + dr/dc to moves
     end
