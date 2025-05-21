@@ -10,7 +10,7 @@ class Rook < Piece
       current_r, current_c = location
 
       loop do
-
+        current_r += dr
       end
       # until we hit a piece
       #   add the location + dr/dc to moves
