@@ -13,6 +13,10 @@ class Rook < Piece
         current_r += dr
         current_c += dc
         loc = [current_r, current_c]
+
+        if board.empty?(loc)
+
+        end
       end
       # until we hit a piece
       #   add the location + dr/dc to moves
