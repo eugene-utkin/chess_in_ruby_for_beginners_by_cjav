@@ -15,7 +15,7 @@ class Rook < Piece
         loc = [current_r, current_c]
 
         if board.empty?(loc)
-
+          moves << loc
         end
       end
       # until we hit a piece
