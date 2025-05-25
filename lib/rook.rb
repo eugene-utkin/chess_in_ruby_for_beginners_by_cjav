@@ -18,6 +18,10 @@ class Rook < Piece
         if board.empty?(loc)
           moves << loc
         end
+
+        if enemy?(loc)
+
+        end
       end
       # until we hit a piece
       #   add the location + dr/dc to moves
