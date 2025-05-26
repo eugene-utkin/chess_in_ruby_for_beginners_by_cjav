@@ -18,9 +18,8 @@ class Rook < Piece
         if board.empty?(loc)
           moves << loc
         end
-
         if enemy?(loc)
-
+          moves << loc
         end
       end
       # until we hit a piece
