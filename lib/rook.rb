@@ -5,7 +5,7 @@ class Rook < Piece
 
   def available_moves
     moves = []
-    
+
     move_dirs.each do |(dr, dc)|
       current_r, current_c = location
 
@@ -20,6 +20,7 @@ class Rook < Piece
         end
         if enemy?(loc)
           moves << loc
+          break
         end
       end
       # until we hit a piece
