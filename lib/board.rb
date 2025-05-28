@@ -52,6 +52,10 @@ class Board
       row >= 0 &&
       column >= 0
   end
+
+  def empty?
+
+  end
 end
 
 # Nouns - classes
