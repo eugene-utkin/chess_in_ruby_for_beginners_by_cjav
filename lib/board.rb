@@ -53,7 +53,7 @@ class Board
       column >= 0
   end
 
-  def empty?
+  def empty?(location)
 
   end
 end
