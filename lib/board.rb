@@ -54,7 +54,7 @@ class Board
   end
 
   def empty?(location)
-
+    row, column = location
   end
 end
 
