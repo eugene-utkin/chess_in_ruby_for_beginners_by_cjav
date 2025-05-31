@@ -55,6 +55,7 @@ class Board
 
   def empty?(location)
     row, column = location
+    grid[row][column].nil?
   end
 end
 
