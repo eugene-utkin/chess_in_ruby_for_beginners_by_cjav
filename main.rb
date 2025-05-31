@@ -4,7 +4,7 @@ require_relative './lib/board_renderer_text.rb'
 
 b = Board.new
 b[[0, 0]] = Rook.new(b, [0, 0], :black)
-b[[0, 0]].available_moves
+p b[[0, 0]].available_moves
 
 # text_board = BoardRendererText.new(b)
 # puts text_board.render
