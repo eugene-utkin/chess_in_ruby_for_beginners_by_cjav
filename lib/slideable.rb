@@ -19,8 +19,6 @@ module Slideable
           break
         end
       end
-      # until we hit a piece
-      #   add the location + dr/dc to moves
     end
     moves
   end
