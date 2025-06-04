@@ -1,4 +1,6 @@
 class Rook < Piece
+  include Slideable
+
   def to_s
     color == :black ? "♜" : "♖"
   end
