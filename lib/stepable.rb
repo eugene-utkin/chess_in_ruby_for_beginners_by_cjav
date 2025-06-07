@@ -8,7 +8,7 @@ module Stepable
       current_r += dr
       current_c += dc
       loc = [current_r, current_c]
-      break if !board.in_bounds?(loc)
+      next if !board.in_bounds?(loc)
 
       if board.empty?(loc)
         moves << loc
