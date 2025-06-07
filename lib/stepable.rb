@@ -1,4 +1,4 @@
-module Slideable
+module Stepable
   def available_moves
     moves = []
 
