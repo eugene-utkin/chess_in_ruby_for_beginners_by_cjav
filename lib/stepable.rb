@@ -15,7 +15,6 @@ module Stepable
       end
       if enemy?(loc)
         moves << loc
-        break
       end
     end
     moves
