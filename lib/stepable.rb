@@ -13,9 +13,6 @@ module Stepable
       if board.empty?(loc) || enemy?(loc)
         moves << loc
       end
-      if enemy?(loc)
-        moves << loc
-      end
     end
     moves
   end
