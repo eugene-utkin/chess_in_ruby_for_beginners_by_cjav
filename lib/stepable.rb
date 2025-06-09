@@ -8,8 +8,9 @@ module Stepable
       current_r += dr
       current_c += dc
       loc = [current_r, current_c]
+      next if !board.in_bounds?(loc)
 
-      if board.in_bounds?(loc) && (board.empty?(loc) || enemy?(loc))
+      if board.empty?(loc) || enemy?(loc)
         moves << loc
       end
     end
