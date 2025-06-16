@@ -1,4 +1,8 @@
 class Pawn < Piece
+  def forward_dir
+
+  end
+
   def to_s
     color == :black ? "♟" : "♙"
   end
