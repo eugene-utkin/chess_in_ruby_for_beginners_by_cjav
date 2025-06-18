@@ -6,6 +6,7 @@ require_relative './lib/board_renderer_text.rb'
 # b[[0, 0]] = King.new(b, [0, 0], :black)
 # p b[[0, 0]].available_moves
 
+b = Board.start_chess
 text_board = BoardRendererText.new(b)
 puts text_board.render
 
