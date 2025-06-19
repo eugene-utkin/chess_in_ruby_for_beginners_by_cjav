@@ -12,7 +12,7 @@ class Board
     board = self.new
     8.times do |c|
       board[[1, c]] = Pawn.new(self, [1, c], :black)
-      board[[6, c]] = Pawn.new(:white)
+      board[[6, c]] = Pawn.new(self, [6, c], :white)
     end
 
     [[0, :black], [7, :white]].each do |(r, color)|
