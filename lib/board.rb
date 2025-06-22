@@ -20,7 +20,7 @@ class Board
       board[[r, 7]] = Rook.new(self, [r, 7], color)
       board[[r, 1]] = Knight.new(self, [r, 1], color)
       board[[r, 6]] = Knight.new(self, [r, 6], color)
-      board[[r, 2]] = Bishop.new(color)
+      board[[r, 2]] = Bishop.new(self, [r, 2], color)
       board[[r, 5]] = Bishop.new(color)
     end
     board[[0, 3]] = King.new(:black)
