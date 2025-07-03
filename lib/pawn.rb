@@ -3,6 +3,10 @@ class Pawn < Piece
     color == :black ? 1 : -1
   end
 
+  def available_moves
+
+  end
+
   def to_s
     color == :black ? "♟" : "♙"
   end
