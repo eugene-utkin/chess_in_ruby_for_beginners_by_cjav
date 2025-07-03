@@ -4,7 +4,7 @@ class Pawn < Piece
   end
 
   def available_moves
-
+    # move forward 1
   end
 
   def to_s
