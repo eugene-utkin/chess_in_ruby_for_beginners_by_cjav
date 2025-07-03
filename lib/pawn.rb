@@ -6,6 +6,7 @@ class Pawn < Piece
   def available_moves
     # move forward 1
     # if on the start line, move forward 2
+    # if enemy diag
   end
 
   def to_s
