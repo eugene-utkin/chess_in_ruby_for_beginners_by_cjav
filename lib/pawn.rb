@@ -7,6 +7,10 @@ class Pawn < Piece
     # move forward 1
     moves = []
 
+    if board[one_forward].empty?
+
+    end
+
     # if on the start line, move forward 2
     # if enemy diag
 
