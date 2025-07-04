@@ -8,7 +8,7 @@ class Pawn < Piece
     moves = []
 
     current_r, current_c = location
-    one_forward = [current_r + forward_dir]
+    one_forward = [current_r + forward_dir, current_c]
     if board[one_forward].empty?
       moves << one_forward
     end
