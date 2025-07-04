@@ -7,6 +7,7 @@ class Pawn < Piece
     # move forward 1
     moves = []
 
+    one_forward = []
     if board[one_forward].empty?
       moves << one_forward
     end
