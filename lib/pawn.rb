@@ -13,7 +13,7 @@ class Pawn < Piece
       moves << one_forward
     end
 
-    two_forward = [current_r + forward_dir, current_c]
+    two_forward = [current_r + (forward_dir * 2), current_c]
 
     # if on the start line, move forward 2
     # if enemy diag
