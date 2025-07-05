@@ -15,6 +15,9 @@ class Pawn < Piece
 
     # if on the start line, move forward 2
     two_forward = [current_r + (forward_dir * 2), current_c]
+    if board[one_forward].empty?
+      moves << one_forward
+    end
 
     # if enemy diag
 
