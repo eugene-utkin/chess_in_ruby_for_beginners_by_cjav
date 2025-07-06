@@ -21,6 +21,7 @@ class Pawn < Piece
 
     # if enemy diag
     diag_left = [current_r + forward_dir, current_c + 1]
+    diag_right = [current_r + forward_dir, current_c - 1]
 
     moves
   end
