@@ -23,6 +23,10 @@ class Pawn < Piece
     diag_left = [current_r + forward_dir, current_c + 1]
     diag_right = [current_r + forward_dir, current_c - 1]
 
+    if enemy?(diag_left)
+
+    end
+
     moves
   end
 
