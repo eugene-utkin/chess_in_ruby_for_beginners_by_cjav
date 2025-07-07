@@ -26,6 +26,9 @@ class Pawn < Piece
     if enemy?(diag_left)
       moves << diag_left
     end
+    if enemy?(diag_right)
+
+    end
 
     moves
   end
