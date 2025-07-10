@@ -30,7 +30,7 @@ class Pawn < Piece
       moves << diag_right
     end
 
-    moves
+    moves.select {|m| board.in_bounds?(m)}
   end
 
   def to_s
