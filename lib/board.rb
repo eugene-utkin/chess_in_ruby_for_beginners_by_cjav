@@ -26,7 +26,7 @@ class Board
     board[[0, 3]] = King.new(board, [0, 3], :black)
     board[[0, 4]] = Queen.new(board, [0, 4], :black)
     board[[7, 3]] = King.new(board, [7, 3], :white)
-    board[[7, 4]] = Queen.new(self, [7, 4], :white)
+    board[[7, 4]] = Queen.new(board, [7, 4], :white)
 
     board
   end
