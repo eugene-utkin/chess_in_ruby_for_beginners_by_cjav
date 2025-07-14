@@ -3,6 +3,10 @@ class Pawn < Piece
     color == :black ? 1 : -1
   end
 
+  def at_start?
+
+  end
+
   def available_moves
     # move forward 1
     moves = []
