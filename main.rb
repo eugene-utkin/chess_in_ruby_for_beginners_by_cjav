@@ -11,7 +11,7 @@ text_board = BoardRendererText.new(b)
 
 b[[2, 2]] = Pawn.new(b, [2, 2], :white)
 b[[2, 0]] = Pawn.new(b, [2, 0], :white)
-p b[[1, 1]].available_moves
+p b[[1, 2]].available_moves
 puts text_board.render
 
 # pawn = Pawn.new([0, 0], :black)
