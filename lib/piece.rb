@@ -16,6 +16,6 @@ class Piece
   end
 
   def current_c
-
+    location.last
   end
 end
