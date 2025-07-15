@@ -11,7 +11,6 @@ class Pawn < Piece
     # move forward 1
     moves = []
 
-    current_r, current_c = location
     one_forward = [current_r + forward_dir, current_c]
     if board.empty?(one_forward)
       moves << one_forward
