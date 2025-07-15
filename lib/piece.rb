@@ -10,4 +10,8 @@ class Piece
   def enemy?(location)
     !board[location].nil? && board[location].color != color
   end
+
+  def current_r
+
+  end
 end
