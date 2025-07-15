@@ -12,6 +12,6 @@ class Piece
   end
 
   def current_r
-
+    location.first
   end
 end
