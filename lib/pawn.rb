@@ -5,7 +5,7 @@ class Pawn < Piece
 
   def at_start?
     color == :black && current_r == 1 ||
-      color == :white
+      color == :white && current_r == 6
   end
 
   def available_moves
