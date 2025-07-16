@@ -1,4 +1,5 @@
 # TODO:
+# add logic for "taking a piece"
 
 require_relative './lib/pieces.rb'
 require_relative './lib/board.rb'
