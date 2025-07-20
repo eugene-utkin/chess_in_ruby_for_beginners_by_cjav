@@ -59,6 +59,7 @@ class Board
   end
 
   def move_piece(start_pos, end_pos)
+    # validate that end pos is in available moves
     # remove the piece from the board at the current location
     # place the piece on the board at the new location
   end
