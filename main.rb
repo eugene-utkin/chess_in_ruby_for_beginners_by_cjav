@@ -1,6 +1,7 @@
 # TODO:
 # add logic for "moving and taking a piece"
 # add logic for "won?"
+# add logic for taking turns
 
 require_relative './lib/pieces.rb'
 require_relative './lib/board.rb'
