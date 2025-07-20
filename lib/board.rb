@@ -60,6 +60,7 @@ class Board
 
   def move_piece(start_pos, end_pos)
     # remove the piece from the board at the current location
+    # place the piece on the board at the new location
   end
 end
 
