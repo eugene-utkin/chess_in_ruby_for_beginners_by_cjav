@@ -57,6 +57,10 @@ class Board
     row, column = location
     grid[row][column].nil?
   end
+
+  def move_piece
+
+  end
 end
 
 # Nouns - classes
