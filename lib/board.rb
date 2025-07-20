@@ -58,7 +58,7 @@ class Board
     grid[row][column].nil?
   end
 
-  def move_piece
+  def move_piece(start_pos)
 
   end
 end
