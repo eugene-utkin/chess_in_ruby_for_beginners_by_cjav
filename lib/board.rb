@@ -61,6 +61,9 @@ class Board
   def move_piece(start_pos, end_pos)
     # validate that end pos is in available moves
     piece = self[start_pos]
+    if piece.available_moves.include?(end_pos)
+
+    end
 
     # remove the piece from the board at the current location
     # place the piece on the board at the new location
