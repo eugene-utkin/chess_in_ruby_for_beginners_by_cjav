@@ -64,7 +64,9 @@ class Board
     if !piece.available_moves.include?(end_pos)
       raise 'End position not in available moves'
     end
+    if !in_bounds?(end_pos)
 
+    end
     # remove the piece from the board at the current location
     # place the piece on the board at the new location
     # update the piece's internal location
