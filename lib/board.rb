@@ -65,7 +65,7 @@ class Board
       raise 'End position not in available moves'
     end
     if !in_bounds?(end_pos)
-
+      raise 'End position not in bounds'
     end
     # remove the piece from the board at the current location
     # place the piece on the board at the new location
