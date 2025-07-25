@@ -67,10 +67,13 @@ class Board
     if !in_bounds?(end_pos)
       raise 'End position not in bounds'
     end
+
     # remove the piece from the board at the current location
     self[start_pos] = nil
 
     # place the piece on the board at the new location
+    self[end_pos] = piece
+
     # update the piece's internal location
   end
 end
