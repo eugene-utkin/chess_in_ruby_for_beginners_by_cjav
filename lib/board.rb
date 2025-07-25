@@ -75,6 +75,7 @@ class Board
     self[end_pos] = piece
 
     # update the piece's internal location
+    piece.location = end_pos
   end
 end
 
