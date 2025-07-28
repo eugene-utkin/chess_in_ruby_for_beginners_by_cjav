@@ -21,7 +21,7 @@ p b[[1, 2]].available_moves
 b.move_piece([1, 1], [2, 2])
 puts text_board.render
 
-b.move_piece([1, 1], [4, 4])
+b.move_piece([2, 2], [4, 4])
 
 # pawn = Pawn.new([0, 0], :black)
 # p pawn.to_s
