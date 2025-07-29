@@ -62,7 +62,7 @@ class Board
     # validate that end pos is in available moves
     piece = self[start_pos]
     if !piece.available_moves.include?(end_pos)
-      raise "End position not in available moves: #{piece.available_moves}"
+      raise "End position #{end_pos} not in available moves: #{piece.available_moves}"
     end
     if !in_bounds?(end_pos)
       raise 'End position not in bounds'
