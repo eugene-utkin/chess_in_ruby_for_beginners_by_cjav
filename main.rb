@@ -1,5 +1,4 @@
 # TODO:
-# add logic for "moving and taking a piece"
 # add logic for "won?"
 # add logic for taking turns
 
