@@ -1,6 +1,7 @@
 class Game
   def initialize
     @player1 = Player.new(:black)
+    @player2 = Player.new(:white)
   end
 
   def play
