@@ -13,6 +13,7 @@ class Game
   end
 
   def play
+    puts "It's #{current_player.color}'s turn"
     # Prompt current player to enter a starting pos
     # Prompt current player to enter an ending pos
     # Move the piece
