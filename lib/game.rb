@@ -14,6 +14,7 @@ class Game
 
   def play
     puts "It's #{current_player.color}'s turn"
+    puts "Select a piece: "
     # Prompt current player to enter a starting pos
     # Prompt current player to enter an ending pos
     # Move the piece
